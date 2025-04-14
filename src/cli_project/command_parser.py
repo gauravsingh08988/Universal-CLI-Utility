@@ -6,7 +6,7 @@ from cli.commands.build import build
 @click.group()
 @click.version_option("1.0.0", prog_name="MyCLI")
 def cli():
-    """🔧 MyCLI - A Project Command Line Tool."""
+    """🔧 MyCLI - A Project Command utility  Tool."""
     pass
 
 cli.add_command(init)
